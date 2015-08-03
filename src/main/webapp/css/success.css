@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+*
+{
+	background-color : "Ivory";
+}
+.container
+{
+  padding: 100px;
+  width: 50%;
+  box-shadow: darkblue 10px 10px 30px;
+
+}

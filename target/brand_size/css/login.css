@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+div#caption {
+  height: 60px;
+  margin-bottom:70px;
+}
+
+.logo img{
+	margin-top:15px;
+	margin-left:65px;
+}
+
+.header-right-content {
+  height: inherit;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  margin-left: 235px;
+  margin-top: -35px;
+
+}
+
+.divider {
+
+    width: 0;
+    height: 1em;
+    border-left: 3px solid #ccc;
+
+}
+
+.myButton{
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+	background: #4285f4;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 0.6em 0.97em;
+	text-decoration: none !important;	
+}
+
+.panel {
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.whiteHeader{
+	background-color: white !important;
+}
+
+.panel-info {
+  border-color: transparent;
+}
+
+.header-topbar {
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.14), 0 0px 0px 0px rgba(0, 0, 0, 0.12), 0 4px 1px -3px rgba(0, 0, 0, 0.4);
+	background-color: #FAF9F9;;
+}

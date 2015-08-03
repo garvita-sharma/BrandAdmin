@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+div#caption {
+  height: 60px;
+  background-color: rgb(236, 245, 250);
+  margin-bottom:70px;
+}
+
+.logo img{
+	margin-top:15px;
+	margin-left:65px;
+}
+
+#size_chart_box
+{
+	margin-top: 20px;
+}
+
+#submit_button
+{
+	float: right;
+  	margin-top: 40px;
+}
+ 
+.margin_top_20{
+	margin-top:20px;
+}
+
+.myPanelHead{
+	  color: #000 !important;
+	  background-color: #fff !important;
+	  border-color: #d6e9c6 !important;
+}
+.error {
+	display: inline-block;
+	color: #e04e4e;
+	vertical-align: top;
+	resize: vertical;
+	padding: 9px 10px;
+	
+}
+#error
+{
+	visibility:hidden;
+}

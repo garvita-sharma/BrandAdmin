@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="json-default">
+		<action name="addBrand" class="com.sd.brandsizeadmin.action.BrandAction"
+			method="execute">
+			<result name="success">/add.jsp</result>
+			<!-- <result name="failure">/failure.jsp</result> -->
+			<result name="input">/add.jsp</result>
+			<interceptor-ref name="fileUpload">
+  				<param name="allowedTypes">
+     				image/png,image/gif,image/jpeg, image/bmp
+  				</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="category" class="com.sd.brandsizeadmin.action.category"
+			method="execute">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="encoding">UTF-8</param>
+				<param name="noCache">true</param>
+			</result>
+		</action>
+
+		<action name="SizeChart" class="com.sd.brandsizeadmin.action.SizeChart"
+			method="execute">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="encoding">UTF-8</param>
+				<param name="noCache">true</param>
+			</result>
+		</action>
+
+		<action name="Validate" class="com.sd.brandsizeadmin.action.ValidateSeller"
+			method="execute">
+			<!--<result name="success">/success.jsp</result> -->
+			<result name="failure">/invalid.jsp</result>
+		</action>
+
+		<action name="login" class="com.sd.brandsizelogin.action.LoginCheck"
+			method="execute">
+			<result name="success">/add.jsp</result>
+			<result name="failure">/login.jsp</result>
+		</action>
+
+		<action name="sendinfo" class="com.sd.brandsizeadmin.action.ReceiveInfo">
+			<result type="json">
+				<param name="excludeNullProperties">true</param>
+				<param name="encoding">UTF-8</param>
+				<param name="noCache">true</param>
+			</result>
+		</action>
+		
+        <action name="searchAction" class="com.sd.brandsizeadmin.action.AutoCompleteAction">
+                <result type="json">
+                   <param name="excludeNullProperties">true</param>
+                   <param name="encoding">UTF-8</param>
+                  <param name="noCache">true</param>
+               </result>
+        </action>
+    
+	</package>
+</struts>

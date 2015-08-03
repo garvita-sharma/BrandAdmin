@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+@CHARSET "UTF-8";
+
+div#caption {
+  height: 60px;
+  background-color: rgb(236, 245, 250);
+  margin-bottom:70px;
+}
+
+.logo img{
+	margin-top:15px;
+	margin-left:65px;
+}
+
+.logoutbutton
+{
+	float : right;
+	padding-top : 20px;
+	margin-right : 20px;
+	cursor: pointer;
+}
+
+.myButton{
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+	background: #4285f4;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 0.6em 0.97em;
+	text-decoration: none !important;	
+}
+
+.panel {
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.whiteHeader{
+	background-color: transparent !important;
+}
+
+.panel-success{
+	border-color: transparent;
+}
+
+.panel-info {
+  border-color: transparent;
+}
+
+#logout{
+  color: red;
+  background-color: inherit;
+  border: none;
+}
+
+.ui-menu-item{
+	
+}
+
+#size_chart_box
+{
+	margin-top: 20px;
+	overflow-x: scroll;
+	
+}
+
+/* span#size_table > table {
+
+    table-layout: fixed;
+    width: 100%;
+
+} */
+
+#submit_button
+{
+	float: right;
+  	margin-top: 40px;
+}
+ 
+.margin_top_20{
+	margin-top:20px;
+}
+
+.header-topbar {
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.14), 0 0px 0px 0px rgba(0, 0, 0, 0.12), 0 4px 1px -3px rgba(0, 0, 0, 0.4);
+	background-color: #FAF9F9;;
+}
+
+.myPanelHead{
+	  color: #000 !important;
+	  background-color: #fff !important;
+	  border-color: #d6e9c6 !important;
+}
+
+/* table,th,td
+{
+	border: 2px solid black;
+    border-collapse: collapse;
+} */
+
+.error {
+	height:50px;
+	display: inline-block;
+	color: #e04e4e;
+	vertical-align: top;
+	resize: vertical;
+	padding: 9px 10px;
+	
+}
+#error
+{
+	visibility:hidden;
+}
+.ui-menu .ui-menu-item a.sbiAnchor.ui-state-hover{ background: blue; }
+
+
+.ui-menu-item{
+	display: block;
+	margin:5px;
+}
+
+.ui-state-focus{
+	background: #D3D3D3;
+	color: white;
+}
+
+ul#ui-id-1 {
+  width: 422px;
+  margin: 12px 0;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+/* .ui-helper-hidden-accessible {
+  display: none;
+} */
+
+.nopadding
+{
+	padding : 0 !important;
+}
+
+textarea {
+   resize: none;
+}
+
+.relative {
+  position: relative;
+}
